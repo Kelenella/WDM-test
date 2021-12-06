@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import '/node_modules/modern-normalize/modern-normalize.css';
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --main-text-color: #8792a7;
+  --accent-color: #018fde;
+  --title-color: #121212;
+  --hero-text: #3d3d3d;
+  --menu-bg-color: #e5e5e5;
+  --footer-bg-color: #121212;
+  --footer-main-text: #dbdbdb;
+  --footer-title-text: #ffffff;
+  --form-main-bg: #ffffff;
+  --form-inactive-bg: #eef3fc;
+  --form-active-text: #3d3d3d;
+  --form-inactive-text: #8792a7;
+  --dark-btn-color: #121212;
+  --dark-btn-text: #ffffff;
+  --light-btn-text: #121212;
+  --btn-onClick-text: #8792a7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  /* width: 100%; */
+  height: auto;
 }
