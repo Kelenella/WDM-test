@@ -68,19 +68,17 @@ export default function Footer() {
         </div>
 
         <div className={s.addressWrapperTablet}>
-          <div className={s.wrapperDesktop}>
-            <div className={s.footerItem}>
-              <TitleFooter title="address" />
-              <address className={s.address}>Lorem ipsum set amet</address>
-            </div>
+          <div className={s.footerItem}>
+            <TitleFooter title="address" />
+            <address className={s.address}>Lorem ipsum set amet</address>
+          </div>
 
-            <div className={s.footerItem}>
-              <TitleFooter title="our office hours" />
-              <p className={s.text}>
-                Mon-Fr: 8:00-18:00 GMT <br />
-                Sat/Su: Closed
-              </p>
-            </div>
+          <div className={s.footerItem}>
+            <TitleFooter title="our office hours" />
+            <p className={s.text}>
+              Mon-Fr: 8:00-18:00 GMT <br />
+              Sat/Su: Closed
+            </p>
           </div>
 
           <div className={s.footerItem}>

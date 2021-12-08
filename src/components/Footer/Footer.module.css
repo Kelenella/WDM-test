@@ -118,7 +118,7 @@
     margin-bottom: 65px;
   }
 }
-@media screen and (min-width: 1199.98px) {
+@media screen and (min-width: 1200px) {
   .wrapperDesktop {
     display: block;
   }
