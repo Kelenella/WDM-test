@@ -24,14 +24,14 @@
   text-align: center;
   color: var(--title-color);
 }
-@media screen and (min-width: 767.98px) {
+@media screen and (min-width: 768px) {
   .title {
     width: 624px;
     font-size: 48px;
     margin-bottom: 19px;
   }
 }
-@media screen and (min-width: 1199.98px) {
+@media screen and (min-width: 1200px) {
   .title {
     max-width: 864px;
     font-size: 56px;
@@ -52,14 +52,14 @@
   text-transform: uppercase;
   color: var(--accent-color);
 }
-@media screen and (min-width: 767.98px) {
+@media screen and (min-width: 768px) {
   .slogan {
     width: 454px;
     font-size: 24px;
     margin-bottom: 6px;
   }
 }
-@media screen and (min-width: 1199.98px) {
+@media screen and (min-width: 1200px) {
   .slogan {
     width: 530px;
     font-size: 28px;
@@ -78,7 +78,7 @@
   margin-bottom: 8px;
   color: var(--hero-text);
 }
-@media screen and (min-width: 767.98px) {
+@media screen and (min-width: 768px) {
   .text {
     margin-right: 24px;
     margin-bottom: 0;
@@ -92,7 +92,7 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 767.98px) {
+@media screen and (min-width: 768px) {
   .textBtnWrapper {
     display: flex;
     flex-direction: row;
@@ -104,12 +104,12 @@
   width: 272px;
 }
 
-@media screen and (min-width: 767.98px) {
+@media screen and (min-width: 768px) {
   .line {
     width: 427px;
   }
 }
-@media screen and (min-width: 1199.98px) {
+@media screen and (min-width: 1200px) {
   .line {
     width: 502px;
   }
