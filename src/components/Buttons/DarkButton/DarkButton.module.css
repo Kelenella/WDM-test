@@ -1,4 +1,4 @@
-.heroBtn {
+.darkBtn {
   position: relative;
   width: 215px;
   display: inline-block;
@@ -16,12 +16,11 @@
     transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.heroBtn::after {
+.darkBtn::after {
   content: '';
   border: 1px solid rgba(18, 18, 18, 1);
   position: absolute;
   left: -4px;
-
   top: 4px;
 
   width: 100%;
@@ -29,9 +28,9 @@
   z-index: -1;
 }
 
-.heroBtn:hover::after {
+.darkBtn:hover::after {
   opacity: 0;
 }
-.heroBtn:active {
+.darkBtn:active {
   color: var(--btn-onClick-text);
 }

@@ -1,10 +1,11 @@
-import HeroButton from '../Buttons/HeroButton/HeroButton';
+import DarkButton from '../Buttons/DarkButton/DarkButton';
 import { ReactComponent as Decor } from '../../images/svg/Decor.svg';
 import s from './Hero.module.css';
 
 export default function Hero() {
   return (
     <section className={s.Hero}>
+      <div className={s.bg}></div>
       <h1 className={s.title}>Lorem ipsum set ammet test-test</h1>
       <p className={s.slogan}>let us help you get it all back!</p>
       <div className={s.divLine}>
@@ -15,7 +16,7 @@ export default function Hero() {
         <p className={s.text}>
           We currently take cases that are $10,000 US and up
         </p>
-        <HeroButton />
+        <DarkButton text="Get a free consultation" />
       </div>
     </section>
   );

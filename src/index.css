@@ -35,6 +35,9 @@ body {
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.01em;
+  /* background-image: linear-gradient(267.33deg, #018fde 19.54%, #072e44 123.71%);
+  opacity: 0.14;
+  filter: blur(250px); */
 }
 
 ul {
