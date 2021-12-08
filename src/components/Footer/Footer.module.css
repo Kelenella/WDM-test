@@ -1,0 +1,125 @@
+.footer {
+  /* width: 100%; */
+  padding: 40px 24px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  background-color: var(--footer-bg-color);
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-left: 72px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 130px;
+  }
+}
+/* @media screen and (min-width: 1200px) {
+  .footer {
+    max-width: 1200px;
+  }
+} */
+@media screen and (min-width: 1200px) {
+  .footerList {
+    display: flex;
+  }
+}
+.footerItem {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .footerItem {
+    margin-right: 70px;
+    margin-bottom: 0;
+  }
+}
+
+.logoWrapper {
+  margin-bottom: 16px;
+}
+.text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  color: var(--footer-main-text);
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 14px;
+    line-height: 1.7;
+    /* margin-bottom: 0; */
+  }
+}
+
+.site {
+  color: var(--footer-main-text);
+}
+.site:hover {
+  color: var(--footer-main-text);
+}
+
+.contactH2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  font-variant: small-caps;
+  color: var(--footer-title-text);
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .contactH2 {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+.contactList {
+  width: 145px;
+}
+.contactsWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  color: var(--footer-main-text);
+  font-size: 12px;
+  line-height: 20px;
+  line-height: 1.67;
+}
+.contactItem:not(:last-child) {
+  margin-bottom: 16px;
+}
+.address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  color: var(--footer-main-text);
+}
+@media screen and (min-width: 768px) {
+  .address {
+    font-size: 14px;
+    width: 97px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .addressWrapperTablet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+  .wrapperTablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 65px;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .wrapperDesktop {
+    display: block;
+  }
+}

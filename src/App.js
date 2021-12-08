@@ -1,15 +1,16 @@
 import './App.css';
-import { useState, useEffect } from 'react';
 import Container from './components/Container';
-import NavBarMobile from './components/NavBar/NavBar';
-import Hero from './components/Hero';
-import Form from './components/Form/Form';
+// import NavBarMobile from './components/NavBar/NavBar';
+// import Hero from './components/Hero';
+// import Form from './components/Form/Form';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <Container>
-      <NavBarMobile />
+      {/* <NavBarMobile /> */}
       {/* <Hero /> */}
+      <Footer />
     </Container>
   );
 }

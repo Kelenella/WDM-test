@@ -1,6 +1,6 @@
 import s from './NavBar.module.css';
 import Logo from '../../images/Logotype.png';
-import { ReactComponent as Close } from '../../images/svg/Close.svg';
+// import { ReactComponent as Close } from '../../images/svg/Close.svg';
 import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
@@ -9,6 +9,7 @@ import { NavDropdown } from 'react-bootstrap';
 export default function NavBarMobile() {
   return (
     <header className={s.container}>
+      <div className={s.bg}></div>
       <Navbar bg="white" expand="md">
         <Container>
           <Navbar.Brand href="#home">
