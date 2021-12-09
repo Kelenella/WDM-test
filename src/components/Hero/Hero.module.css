@@ -1,16 +1,17 @@
 .Hero {
   position: relative;
+  margin-bottom: 100px;
 }
-.bg {
-  background-image: linear-gradient(264.93deg, #072e44 9.13%, #018fde 106.76%);
-  opacity: 0.14;
-  filter: blur(250px);
-  transform: rotate(-52.45deg);
-  width: 472px;
-  height: 558px;
+.bg2 {
   position: absolute;
-  top: 60px;
-  left: -127px;
+  width: 260px;
+  height: 189.8px;
+  left: 334.3px;
+  top: 500.69px;
+  background: linear-gradient(264.93deg, #072e44 9.13%, #018fde 106.76%);
+  opacity: 0.14;
+  filter: blur(150px);
+  transform: matrix(-0.89, -0.69, 0.36, -0.83, 0, 0);
 }
 
 .title {

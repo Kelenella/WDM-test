@@ -5,7 +5,6 @@ import s from './Hero.module.css';
 export default function Hero() {
   return (
     <section className={s.Hero}>
-      <div className={s.bg}></div>
       <h1 className={s.title}>Lorem ipsum set ammet test-test</h1>
       <p className={s.slogan}>let us help you get it all back!</p>
       <div className={s.divLine}>
@@ -18,6 +17,7 @@ export default function Hero() {
         </p>
         <DarkButton text="Get a free consultation" />
       </div>
+      {/* <div className={s.bg2}></div> */}
     </section>
   );
 }

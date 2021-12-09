@@ -1,6 +1,16 @@
+.header {
+  padding: 24px;
+  margin-bottom: 50px;
+}
 .logo {
   width: 66px;
   height: 24px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 110px;
+    height: 40px;
+  }
 }
 .bg {
   position: absolute;
@@ -12,4 +22,8 @@
   opacity: 0.14;
   filter: blur(150px);
   transform: matrix(0.58, -1.01, 0.62, 0.64, 0, 0);
+}
+.toggle {
+  outline: none;
+  border: none;
 }

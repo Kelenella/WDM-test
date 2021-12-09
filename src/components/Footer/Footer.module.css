@@ -4,20 +4,22 @@
   /* margin-right: auto;
   margin-left: auto; */
   background-color: var(--footer-bg-color);
+  /* margin-top: 50px; */
 }
 @media screen and (min-width: 768px) {
   .footer {
+    max-width: 1199.98px;
     padding-left: 72px;
     padding-bottom: 40px;
     padding-top: 40px;
     padding-right: 130px;
   }
 }
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .footer {
-    max-width: 1200px;
+    max-width: 1440px;
   }
-} */
+}
 @media screen and (min-width: 1200px) {
   .footerList {
     display: flex;
@@ -118,7 +120,7 @@
     margin-bottom: 65px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1199.98px) {
   .wrapperDesktop {
     display: block;
   }
