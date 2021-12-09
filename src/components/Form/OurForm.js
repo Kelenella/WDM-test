@@ -17,60 +17,64 @@ export default function OurForm() {
         <h2 className={s.title}>
           <span className={s.accentText}>Contact</span> Us
         </h2>
+        <div className={s.wrapperForm}>
+          <FormGroup as={Col} className={s.group}>
+            <FormControl
+              // value={firstName}
+              type="text"
+              name="firstName"
+              placeholder=" "
+              className={s.control}
+            />
+            <FormLabel htmlFor="firstName" className={s.label}>
+              First Name
+            </FormLabel>
+          </FormGroup>
 
-        <FormGroup as={Col} className={s.group}>
-          <FormControl
-            // value={firstName}
-            type="text"
-            name="firstName"
-            placeholder=" "
-            className={s.control}
-          />
-          <FormLabel htmlFor="firstName" className={s.label}>
-            First Name
-          </FormLabel>
-        </FormGroup>
+          <FormGroup className={s.group}>
+            <FormControl
+              // value={lastName}
+              type="text"
+              name="lastName"
+              placeholder=" "
+              className={s.control}
+            />
+            <FormLabel htmlFor="lastName" className={s.label}>
+              Last Name
+            </FormLabel>
+          </FormGroup>
+        </div>
 
-        <FormGroup className={s.group}>
-          <FormControl
-            // value={lastName}
-            type="text"
-            name="lastName"
-            placeholder=" "
-            className={s.control}
-          />
-          <FormLabel htmlFor="lastName" className={s.label}>
-            Last Name
-          </FormLabel>
-        </FormGroup>
-        <FormGroup className={s.group}>
-          <FormControl
-            // value={phone}
-            type="tel"
-            name="phone"
-            placeholder=" "
-            className={s.telControl}
-          />
+        <div className={s.wrapperForm}>
+          <FormGroup className={s.group}>
+            <FormControl
+              // value={phone}
+              type="tel"
+              name="phone"
+              placeholder=" "
+              className={s.telControl}
+            />
+            <FormLabel htmlFor="phone" className={s.label}>
+              +1
+            </FormLabel>
+            <Form.Select className={s.select}> </Form.Select>
+            <Flag className={s.flag} />
+          </FormGroup>
 
-          <FormLabel htmlFor="phone" className={s.label}>
-            +1
-          </FormLabel>
-          <Form.Select className={s.select}> </Form.Select>
-          <Flag className={s.flag} />
-        </FormGroup>
+          <FormGroup className={s.group}>
+            <FormControl
+              // value={email}
+              type="email"
+              name="email"
+              placeholder=" "
+              className={s.control}
+            />
+            <FormLabel htmlFor="email" className={s.label}>
+              Enter email
+            </FormLabel>
+          </FormGroup>
+        </div>
 
-        <FormGroup className={s.group}>
-          <FormControl
-            // value={email}
-            type="email"
-            name="email"
-            placeholder=" "
-            className={s.control}
-          />
-          <FormLabel htmlFor="email" className={s.label}>
-            Enter email
-          </FormLabel>
-        </FormGroup>
         <FormGroup as={Col} className={s.group}>
           <Form.Control
             // value={message}

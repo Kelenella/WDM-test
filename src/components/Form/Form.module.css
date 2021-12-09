@@ -1,5 +1,6 @@
 .form {
   width: 272px;
+  height: 520px;
   padding: 24px 16px;
   margin-bottom: 55px;
   margin-right: auto;
@@ -12,12 +13,30 @@
 }
 @media screen and (min-width: 768px) {
   .form {
-    align-items: center;
+    width: 624px;
+    height: 438px;
+    padding: 40px 64px;
     display: flex;
     justify-content: center;
-    width: 624px;
+    align-items: center;
+    flex-direction: column;
   }
 }
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 1088px;
+    height: 523px;
+    padding: 72px 224px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapperForm {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+  }
+}
+
 .title {
   margin-bottom: 24px;
   font-weight: 600;
@@ -27,12 +46,28 @@
   letter-spacing: 0.01em;
   color: var(--title-color);
 }
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 32px;
+  }
+}
 .accentText {
   color: var(--accent-color);
 }
 .group {
   position: relative;
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .group {
+    margin-right: 16px;
+  }
 }
 .label {
   position: absolute;
@@ -61,6 +96,11 @@
     line-height: 1.71;
   }
 }
+@media screen and (min-width: 1200px) {
+  .control {
+    width: 312px;
+  }
+}
 .control:focus + .label,
 .control:not(:placeholder-shown) + .label {
   transform: translateY(-45px);
@@ -76,7 +116,7 @@
 .textarea {
   width: 240px;
   height: 100px;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 
   font-weight: 500;
   font-size: 12px;
@@ -86,6 +126,18 @@
   border: none;
   outline: none;
   resize: none;
+}
+@media screen and (min-width: 768px) {
+  .textarea {
+    width: 496px;
+    height: 96px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .textarea {
+    width: 640px;
+    height: 96px;
+  }
 }
 .labelTextArea {
   position: absolute;
@@ -98,6 +150,12 @@
 .textarea:focus + .labelTextArea,
 .textarea:not(:placeholder-shown) + .labelTextArea {
   transform: translateY(-45px);
+}
+@media screen and (min-width: 1200px) {
+  .textarea:focus + .labelTextArea,
+  .textarea:not(:placeholder-shown) + .labelTextArea {
+    transform: translateY(-52px);
+  }
 }
 .flag {
   position: absolute;
@@ -123,7 +181,7 @@
 
 .telControl {
   width: 240px;
-  height: 50px;
+  height: 48px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.67;
@@ -132,6 +190,11 @@
   border: none;
   outline: none;
   padding-left: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .telControl {
+    width: 312px;
+  }
 }
 .telControl + .label {
   position: absolute;
