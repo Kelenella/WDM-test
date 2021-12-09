@@ -14,64 +14,75 @@ export default function OurForm() {
   return (
     <>
       <Form className={s.form}>
-        <h2>
-          <span>Contact</span> us
+        <h2 className={s.title}>
+          <span className={s.accentText}>Contact</span> Us
         </h2>
 
         <FormGroup as={Col} className={s.group}>
-          <FormLabel className={s.label}></FormLabel>
           <FormControl
             // value={firstName}
             type="text"
             name="firstName"
-            placeholder="First Name"
+            placeholder=" "
             className={s.control}
           />
+          <FormLabel htmlFor="firstName" className={s.label}>
+            First Name
+          </FormLabel>
         </FormGroup>
 
         <FormGroup className={s.group}>
-          <FormLabel></FormLabel>
           <FormControl
             // value={lastName}
             type="text"
             name="lastName"
-            placeholder="Last Name"
+            placeholder=" "
             className={s.control}
           />
+          <FormLabel htmlFor="lastName" className={s.label}>
+            Last Name
+          </FormLabel>
         </FormGroup>
         <FormGroup className={s.group}>
-          <FormLabel></FormLabel>
-          <Flag className={s.flag} />
-          <FormSelect style={{ width: '25px' }} className={s.select} />
           <FormControl
             // value={phone}
             type="tel"
             name="phone"
-            placeholder="+1"
+            placeholder=" "
             className={s.telControl}
           />
+
+          <FormLabel htmlFor="phone" className={s.label}>
+            +1
+          </FormLabel>
+          <Form.Select className={s.select}> </Form.Select>
+          <Flag className={s.flag} />
         </FormGroup>
 
         <FormGroup className={s.group}>
-          <FormLabel></FormLabel>
           <FormControl
             // value={email}
             type="email"
             name="email"
-            placeholder="Enter email"
+            placeholder=" "
             className={s.control}
           />
+          <FormLabel htmlFor="email" className={s.label}>
+            Enter email
+          </FormLabel>
         </FormGroup>
         <FormGroup as={Col} className={s.group}>
-          <FormLabel></FormLabel>
           <Form.Control
             // value={message}
             as="textarea"
             type="text"
             name="message"
-            placeholder="Tell Us What Happened"
+            placeholder=" "
             className={s.textarea}
           />
+          <FormLabel className={s.labelTextArea}>
+            Tell Us What Happened
+          </FormLabel>
         </FormGroup>
         <DarkButton text="Send" type="submit" />
       </Form>
