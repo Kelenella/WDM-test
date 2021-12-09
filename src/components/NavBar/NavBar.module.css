@@ -66,15 +66,16 @@
     width: 571.72px;
     height: 362.48px;
     left: 218.93px;
-    top: 777.78px;
+    top: 177.78px;
+    filter: blur(250px);
   }
 }
 .bg2 {
   position: absolute;
   width: 260.2px;
   height: 189.8px;
-  left: 0;
-  top: 500.69px;
+  left: 183;
+  top: 130px;
 
   background: linear-gradient(264.93deg, #072e44 9.13%, #018fde 106.76%);
   opacity: 0.14;
