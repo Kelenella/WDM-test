@@ -1,4 +1,3 @@
-import './App.css';
 import Container from './components/Container';
 import NavBarMobile from './components/NavBar/NavBar';
 import Hero from './components/Hero';

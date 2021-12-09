@@ -1,8 +1,0 @@
-.bg {
-  width: 600px;
-  height: 300px;
-  background-image: linear-gradient(267.33deg, #018fde 19.54%, #072e44 123.71%);
-  opacity: 0.14;
-  filter: blur(150px);
-  transform: matrix(0.58, -1.01, 0.62, 0.64, 0, 0);
-}

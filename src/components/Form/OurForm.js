@@ -1,18 +1,14 @@
 import s from './Form.module.css';
 import { ReactComponent as Flag } from '../../images/svg/Flag.svg';
-import { useState } from 'react';
-import { Col, Form, FormControl, FormLabel, FormSelect } from 'react-bootstrap';
+
+import { Col, Form, FormControl, FormLabel } from 'react-bootstrap';
 import DarkButton from '../Buttons/DarkButton/DarkButton';
+
 import { FormGroup } from 'react-bootstrap';
 
 export default function OurForm() {
-  // const [firstName, setFirstName] = useState('');
-  // const [lastName, setLastName] = useState('');
-  // const [phone, setPhone] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [message, setMessage] = useState('');
   return (
-    <>
+    <section>
       <Form className={s.form}>
         <h2 className={s.title}>
           <span className={s.accentText}>Contact</span> Us
@@ -90,6 +86,6 @@ export default function OurForm() {
         </FormGroup>
         <DarkButton text="Send" type="submit" />
       </Form>
-    </>
+    </section>
   );
 }

@@ -1,7 +1,21 @@
 .header {
   padding: 24px;
   margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
+@media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 112px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    margin-bottom: 78px;
+    padding: 32px 64px;
+  }
+}
+
 .logo {
   width: 66px;
   height: 24px;
@@ -10,6 +24,22 @@
   .logo {
     width: 110px;
     height: 40px;
+  }
+}
+.btn {
+  display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .btn {
+    display: block;
+  }
+}
+.desktopBtn {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .desktopBtn {
+    display: block;
   }
 }
 .bg {
@@ -23,7 +53,59 @@
   filter: blur(150px);
   transform: matrix(0.58, -1.01, 0.62, 0.64, 0, 0);
 }
+@media screen and (min-width: 768px) {
+  .bg {
+    width: 472.6px;
+    height: 558.07px;
+    left: -306px;
+    top: 107.69px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bg {
+    width: 571.72px;
+    height: 362.48px;
+    left: 218.93px;
+    top: 777.78px;
+  }
+}
+.bg2 {
+  position: absolute;
+  width: 260.2px;
+  height: 189.8px;
+  left: 0;
+  top: 500.69px;
+
+  background: linear-gradient(264.93deg, #072e44 9.13%, #018fde 106.76%);
+  opacity: 0.14;
+  filter: blur(150px);
+  transform: matrix(-0.89, -0.69, 0.36, -0.83, 0, 0);
+}
 .toggle {
   outline: none;
   border: none;
+}
+.link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 1200px) {
+  .link {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+.option {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--hero-text);
+}
+@media screen and (min-width: 1200px) {
+  .option {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.67;
+  }
 }

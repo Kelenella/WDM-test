@@ -17,7 +17,6 @@ export default function Hero() {
         </p>
         <DarkButton text="Get a free consultation" />
       </div>
-      {/* <div className={s.bg2}></div> */}
     </section>
   );
 }
