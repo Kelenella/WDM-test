@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/wdm-test/static/css/main.57560897.chunk.css",
-    "main.js": "/wdm-test/static/js/main.3c75ae7a.chunk.js",
-    "main.js.map": "/wdm-test/static/js/main.3c75ae7a.chunk.js.map",
+    "main.css": "/wdm-test/static/css/main.3019316d.chunk.css",
+    "main.js": "/wdm-test/static/js/main.8241fcaf.chunk.js",
+    "main.js.map": "/wdm-test/static/js/main.8241fcaf.chunk.js.map",
     "runtime-main.js": "/wdm-test/static/js/runtime-main.97346df2.js",
     "runtime-main.js.map": "/wdm-test/static/js/runtime-main.97346df2.js.map",
     "static/css/2.f1d9fcd9.chunk.css": "/wdm-test/static/css/2.f1d9fcd9.chunk.css",
-    "static/js/2.59d68a00.chunk.js": "/wdm-test/static/js/2.59d68a00.chunk.js",
-    "static/js/2.59d68a00.chunk.js.map": "/wdm-test/static/js/2.59d68a00.chunk.js.map",
+    "static/js/2.91a35b95.chunk.js": "/wdm-test/static/js/2.91a35b95.chunk.js",
+    "static/js/2.91a35b95.chunk.js.map": "/wdm-test/static/js/2.91a35b95.chunk.js.map",
     "index.html": "/wdm-test/index.html",
     "static/css/2.f1d9fcd9.chunk.css.map": "/wdm-test/static/css/2.f1d9fcd9.chunk.css.map",
-    "static/css/main.57560897.chunk.css.map": "/wdm-test/static/css/main.57560897.chunk.css.map",
-    "static/js/2.59d68a00.chunk.js.LICENSE.txt": "/wdm-test/static/js/2.59d68a00.chunk.js.LICENSE.txt",
+    "static/css/main.3019316d.chunk.css.map": "/wdm-test/static/css/main.3019316d.chunk.css.map",
+    "static/js/2.91a35b95.chunk.js.LICENSE.txt": "/wdm-test/static/js/2.91a35b95.chunk.js.LICENSE.txt",
+    "static/media/Close.257c155d.svg": "/wdm-test/static/media/Close.257c155d.svg",
     "static/media/Decor.7c0c3f92.svg": "/wdm-test/static/media/Decor.7c0c3f92.svg",
+    "static/media/Express.ed9ed583.svg": "/wdm-test/static/media/Express.ed9ed583.svg",
+    "static/media/Flag.1c098f69.svg": "/wdm-test/static/media/Flag.1c098f69.svg",
     "static/media/Logoblue.f6b8ec6f.svg": "/wdm-test/static/media/Logoblue.f6b8ec6f.svg",
+    "static/media/Menu.5171ea6d.svg": "/wdm-test/static/media/Menu.5171ea6d.svg",
     "static/media/dcma.cafc1421.svg": "/wdm-test/static/media/dcma.cafc1421.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.97346df2.js",
     "static/css/2.f1d9fcd9.chunk.css",
-    "static/js/2.59d68a00.chunk.js",
-    "static/css/main.57560897.chunk.css",
-    "static/js/main.3c75ae7a.chunk.js"
+    "static/js/2.91a35b95.chunk.js",
+    "static/css/main.3019316d.chunk.css",
+    "static/js/main.8241fcaf.chunk.js"
   ]
 }
