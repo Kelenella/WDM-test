@@ -1,5 +1,5 @@
 # wdm-test
 
-# please run this site with following link
+please run this site with following link
 
-kelenella.github.io/wdm-test/
+# kelenella.github.io/wdm-test/
